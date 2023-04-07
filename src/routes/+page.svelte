@@ -15,6 +15,6 @@
 <HeroBar />
 <section class="section main-section">
 	<Cards />
-	<Notification _color="blue" />
+	<Notification color="blue" message="This is the Dashboard" dismissable={true} />
 	<Table />
 </section>

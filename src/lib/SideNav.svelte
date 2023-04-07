@@ -33,8 +33,8 @@
 					<span class="menu-item-label">Forms</span>
 				</a>
 			</li>
-			<li class="--set-active-profile-html">
-				<a href="/">
+			<li class="--set-active-profile-html {active == '/profile' ? 'active' : ''}">
+				<a href="/profile">
 					<span class="icon"><i class="mdi mdi-account-circle" /></span>
 					<span class="menu-item-label">Profile</span>
 				</a>

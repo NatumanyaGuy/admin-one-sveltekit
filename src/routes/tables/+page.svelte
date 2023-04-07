@@ -5,5 +5,5 @@
 </script>
 
 <TitleBar _page="Tables" />
-<Notification _color="red" />
+<Notification color="red" message="This is the Table Page." dismissable={true} />
 <Table />
