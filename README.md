@@ -4,7 +4,7 @@ Admin One is a free tailwind CSS admin dashboard template. Tailwind CSS is a uti
 
 ### Sveltekit branch of (justboil/admin-one-tailwind) [https://github.com/justboil/admin-one-tailwind]
 
-![Admin One Dasboard](https://ibb.co/RShnRjb)
+![Admin One Dasboard](https://raw.githubusercontent.com/NatumanyaGuy/admin-one-sveltekit/master/screenshot.png)
 
 ## Free Tailwind CSS HTML5 Admin Dashboard Template
 
