@@ -3,7 +3,7 @@
 	let userOpen = false;
 </script>
 
-<svelte:window on:click={() => {}} />
+<svelte:window />
 
 <nav id="navbar-main" class="navbar is-fixed-top">
 	<div class="navbar-brand">
@@ -22,10 +22,16 @@
 	<div class="navbar-menu" id="navbar-menu">
 		<div class="navbar-end">
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<div class="navbar-item dropdown has-divider {menuOpen == true ? 'active' : ''}">
+			<div
+				class="navbar-item dropdown has-divider {menuOpen == true ? 'active' : ''}"
+				on:mouseleave={() => {
+					menuOpen = !menuOpen;
+				}}
+			>
+				<!-- svelte-ignore a11y-mouse-events-have-key-events -->
 				<span
 					class="navbar-link"
-					on:click={() => {
+					on:mouseover={() => {
 						menuOpen = !menuOpen;
 					}}
 				>
@@ -57,11 +63,15 @@
 			</div>
 			<div
 				class="navbar-item dropdown has-divider has-user-avatar {userOpen == true ? 'active' : ''}"
+				on:mouseleave={() => {
+					userOpen = !userOpen;
+				}}
 			>
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-mouse-events-have-key-events -->
 				<span
 					class="navbar-link"
-					on:click={() => {
+					on:mouseover={() => {
 						userOpen = !userOpen;
 					}}
 				>

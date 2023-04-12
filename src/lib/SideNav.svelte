@@ -40,30 +40,10 @@
 				</a>
 			</li>
 			<li>
-				<a href="/">
+				<a href="/login">
 					<span class="icon"><i class="mdi mdi-lock" /></span>
 					<span class="menu-item-label">Login</span>
 				</a>
-			</li>
-			<li>
-				<!-- svelte-ignore a11y-missing-attribute -->
-				<a class="dropdown">
-					<span class="icon"><i class="mdi mdi-view-list" /></span>
-					<span class="menu-item-label">Submenus</span>
-					<span class="icon"><i class="mdi mdi-plus" /></span>
-				</a>
-				<ul>
-					<li>
-						<a href="/">
-							<span>Sub-item One</span>
-						</a>
-					</li>
-					<li>
-						<a href="/">
-							<span>Sub-item Two</span>
-						</a>
-					</li>
-				</ul>
 			</li>
 		</ul>
 		<p class="menu-label">About</p>

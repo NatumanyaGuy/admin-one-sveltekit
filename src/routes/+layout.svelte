@@ -11,6 +11,7 @@
 		rel="stylesheet"
 		href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css"
 	/>
+	<title>Admin One</title>
 </svelte:head>
 
 <SideNav />
